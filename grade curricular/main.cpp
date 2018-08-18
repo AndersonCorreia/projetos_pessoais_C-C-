@@ -2,17 +2,17 @@
 Autor: anderson da luz correia
 inicio do desnvolvimento: 15/08/2018
 ******************************************************************************************/
-#include <locale.h>  // funções de linguagem,para o uso do português
+#include <locale.h>  // funÃ§Ãµes de linguagem,para o uso do portuguÃªs
 #include <iostream>
 #include <fstream>
-#include <stdio.h>   // funções de entrada e saida
+#include <stdio.h>   // funÃ§Ãµes de entrada e saida
 #include <stdlib.h>  // biblioteca para gerenciamento de memoria
-#include <string.h> // biblioteca de funções de string
+#include <string.h> // biblioteca de funÃ§Ãµes de string
 
 using namespace std;
 
-const char tipo[9][40]={"módulos intregadores obrigatórios","Módulos Obrigatórios","Disciplinas Obrigatórias","TCC","Estágio",
-                "Projeto Empreendedor","Optativa Profissionalizante","Optativa de Formação Humanística","Optativa de Formação Complementar"};
+const char tipo[9][40]={"mÃ³dulos intregadores obrigatÃ³rios","MÃ³dulos ObrigatÃ³rios","Disciplinas ObrigatÃ³rias","TCC","EstÃ¡gio",
+                "Projeto Empreendedor","Optativa Profissionalizante","Optativa de FormaÃ§Ã£o HumanÃ­stica","Optativa de FormaÃ§Ã£o Complementar"};
 typedef struct d{
         char Cod[10],Name[50];
         int Qt_Horas;
@@ -32,15 +32,15 @@ typedef struct s{
 disciplina *aumentar_lista(disciplina *);
 disciplina *inserir_fim(disciplina *);
 void busca_lista(disciplina *, Beta *);
-//funçoes para cadastrar as disciplinas
+//funÃ§oes para cadastrar as disciplinas
 disciplina *inserir_dados(disciplina *, int , Beta *);
 void pre_requisitos(disciplina *, int);
 void co_requisitos(disciplina *, int);
-//função para carregar as informações que ja foram cadastradas
+//funÃ§Ã£o para carregar as informaÃ§Ãµes que ja foram cadastradas
 disciplina *ler_dados(disciplina *, int , Beta *, FILE *);
 void pre_req_dados(disciplina *, int, FILE *);
 void co_req_dados(disciplina *, int, FILE *);
-//funções das opções do usuario
+//funÃ§Ãµes das opÃ§Ãµes do usuario
 void exibir_co_req(disciplina *);
 void exibir_pre_req(disciplina *, int );
 void exibir_pos_req(disciplina *, int );
@@ -49,7 +49,7 @@ void apagar_QuebraDeLinha(char *);//apagar o '\n' de um string
 
 int main(){
 
-    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuação
+    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuaÃ§Ã£o
     disciplina *lista=NULL,*aux;
     Beta busca;
     FILE *dados=fopen("dados.ecomp","r");
@@ -65,13 +65,13 @@ int main(){
         fscanf(dados,"%d\n",&opcao);
     }
     opcao=0;
-    printf("\tIniciar no modo desenvolvedor, para cadastrar as disciplinas?  sim(1)\n\topção: ");
+    printf("\tIniciar no modo desenvolvedor, para cadastrar as disciplinas?  sim(1)\n\topÃ§Ã£o: ");
     scanf("%d",&opcao);
     setbuf(stdin,NULL);
 
     while(opcao==1){
         lista=inserir_dados(lista,1,NULL);
-        printf("\n\ndeseja continuar ? sim(1)\n\topção: ");
+        printf("\n\ndeseja continuar ? sim(1)\n\topÃ§Ã£o: ");
         scanf("%d",&opcao);
         setbuf(stdin,NULL);
         fscanf(dados,"%d",&opcao);
@@ -81,27 +81,27 @@ int main(){
 
     while(opcao!=9){
         system("cls");
-        cout << " Grade curricular do curso de Engenharia de computação da UEFS\n\nEscolha uma das opções abaixo,";
-        cout << " para informações sobre alguma disciplina do curso." << endl;
-        cout << " [1]: Ver pré-requisitos\n [2]: Ver pós-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopção: ";
+        cout << " Grade curricular do curso de Engenharia de computaÃ§Ã£o da UEFS\n\nEscolha uma das opÃ§Ãµes abaixo,";
+        cout << " para informaÃ§Ãµes sobre alguma disciplina do curso." << endl;
+        cout << " [1]: Ver prÃ©-requisitos\n [2]: Ver pÃ³s-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopÃ§Ã£o: ";
         scanf("%d",&opcao);
         setbuf(stdin,NULL);
 
         if(opcao==1){
 
-            cout << "informe uma disciplina para ver os pré-requisitos:" << endl;
+            cout << "informe uma disciplina para ver os prÃ©-requisitos:" << endl;
             fgets(busca.procura,10,stdin);
             setbuf(stdin,NULL);
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.returno==0 && busca.dis_return->pre[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pré-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem prÃ©-requisitos." << endl;
             else if(busca.returno==0){
-                cout << "\nos pré-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
+                cout << "\nos prÃ©-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
                 exibir_pre_req(busca.dis_return,1);
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao==2){
 
@@ -111,13 +111,13 @@ int main(){
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.returno==0 && busca.dis_return->pos[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pos-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem pos-requisitos." << endl;
             else if(busca.returno==0){
-                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
+                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
                 exibir_pos_req(busca.dis_return,1);
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao==3){
 
@@ -127,14 +127,14 @@ int main(){
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.returno==0){
-                cout << "\nos co-requisitos de " << busca.dis_return->Name << " são:" << endl;
+                cout << "\nos co-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl;
                 exibir_co_req(busca.dis_return);
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao!=9)
-            cout << "\nOpção invalida";
+            cout << "\nOpÃ§Ã£o invalida";
 
         cout << endl << endl;
         system("pause");
@@ -200,14 +200,14 @@ disciplina *inserir_dados(disciplina *lista,int modo,Beta *cod){
     }
 
     if(modo==1){
-        cout <<"\n Informe o código da disciplina:" << endl << " ";
+        cout <<"\n Informe o cÃ³digo da disciplina:" << endl << " ";
         fgets(busca.procura,10,stdin);
         setbuf(stdin,NULL);
         apagar_QuebraDeLinha(busca.procura);
         dados << busca.procura << endl;
         busca_lista(lista,&busca);
         if(busca.returno==0){
-            cout << "disciplina " << busca.dis_return->Name << " já está cadastrada";
+            cout << "disciplina " << busca.dis_return->Name << " jÃ¡ estÃ¡ cadastrada";
             return lista;
         }
         lista=aumentar_lista(lista);
@@ -231,12 +231,12 @@ disciplina *inserir_dados(disciplina *lista,int modo,Beta *cod){
     for(a=0;a<9;a++){
         printf("[%d]: %s\n",a+1,tipo[a]);
     }
-    cout << "\nopção: ";
+    cout << "\nopÃ§Ã£o: ";
     scanf("%d",&lista->natureza);
     setbuf(stdin,NULL);
     dados << lista->natureza<< endl;
 
-    cout << "\ninforme quantos pré-requistos " << lista->Name << " tem:" << endl;
+    cout << "\ninforme quantos prÃ©-requistos " << lista->Name << " tem:" << endl;
     scanf("%d",&Qtr);
     setbuf(stdin,NULL);
     dados << Qtr << endl;
@@ -261,17 +261,17 @@ void pre_requisitos(disciplina *lista, int Qtr){
     ofstream dados;
     dados.open("dados.ecomp",ios::app);
 
-    cout <<"\n\tInforme os pré-requisitos de " << lista->Name << endl;
+    cout <<"\n\tInforme os prÃ©-requisitos de " << lista->Name << endl;
     int a,b;
     for(a=0;a<Qtr;a++){
-        cout <<"\npré-requisito " << a+1 << endl;
+        cout <<"\nprÃ©-requisito " << a+1 << endl;
         fgets(busca.procura,10,stdin);
         setbuf(stdin,NULL);
         apagar_QuebraDeLinha(busca.procura);
         dados << busca.procura << endl;
         busca_lista(lista,&busca);
         if(busca.returno==1){
-            cout << "\n\tdisciplina não está cadastrada,\n\ta sequir insira as informações dela:";
+            cout << "\n\tdisciplina nÃ£o estÃ¡ cadastrada,\n\ta sequir insira as informaÃ§Ãµes dela:";
             aux=inserir_fim(lista);
             lista->pre[a]=aux;
             aux=inserir_dados(aux,0,&busca);
@@ -307,7 +307,7 @@ void co_requisitos(disciplina *lista, int Qtr){
         dados << busca.procura << endl;
         busca_lista(lista,&busca);
         if(busca.returno==1){
-            cout << "\n\tdisciplina não está cadastrada,\n\ta sequir insira as informações dela:";
+            cout << "\n\tdisciplina nÃ£o estÃ¡ cadastrada,\n\ta sequir insira as informaÃ§Ãµes dela:";
             aux=inserir_fim(lista);
             aux->pos[0]=NULL;
             lista->co[a]=aux;
@@ -334,7 +334,7 @@ disciplina *ler_dados(disciplina *lista,int modo,Beta *cod,FILE *dados){
 
     if(dados==NULL){
     	printf("erro ao abrir o arquivo");
-    	return 0;//encerrando a execução pela falta do arquivo de entrada
+    	return 0;//encerrando a execuÃ§Ã£o pela falta do arquivo de entrada
     }
 
     if(modo==1){
@@ -425,7 +425,7 @@ void co_req_dados(disciplina *lista, int Qtr,FILE *dados){
 void exibir_co_req(disciplina *lista){
 
     if(lista->co[0]==NULL){
-        cout << " A disciplina " << lista->Name << " não tem co-requisitos." << endl;
+        cout << " A disciplina " << lista->Name << " nÃ£o tem co-requisitos." << endl;
         return ;
     }
     int a;
