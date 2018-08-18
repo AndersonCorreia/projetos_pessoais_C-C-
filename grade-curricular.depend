@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1534618902 source:c:\users\user\ecomp\projetos\grade-curricular\main.cpp
+	<locale.h>
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
