@@ -4,21 +4,21 @@ inicio do desnvolvimento: 15/08/2018
 ******************************************************************************************/
 #include "main.h"
 
-//funções das opções do usuario
+//funÃ§Ãµes das opÃ§Ãµes do usuario
 void exibir_co_req(disciplina *);
 void exibir_pre_req(disciplina *, int , int *);
 void exibir_pos_req(disciplina *, int , int *);
 
 int main(){
 
-    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuação
+    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuaÃ§Ã£o
     disciplina *lista=NULL,*aux;
     Beta busca;
     FILE *dados=fopen("dados.ecomp","r");
     int opcao=1,direto=0;
 
     if(dados==NULL){
-    	printf("erro ao abrir o arquivo com as informações do curso");
+    	printf("erro ao abrir o arquivo com as informaÃ§Ãµes do curso");
     	return 0;
     }
     while(opcao==1){
@@ -31,28 +31,28 @@ int main(){
     while(opcao!=9){
         system("cls");
         opcao=0;
-        cout << " Grade curricular do curso de Engenharia de computação da UEFS\n\nEscolha uma das opções abaixo,";
-        cout << " para informações sobre alguma disciplina do curso." << endl;
-        cout << " [1]: Ver pré-requisitos\n [2]: Ver pós-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopção: ";
+        cout << " Grade curricular do curso de Engenharia de computaÃ§Ã£o da UEFS\n\nEscolha uma das opÃ§Ãµes abaixo,";
+        cout << " para informaÃ§Ãµes sobre alguma disciplina do curso." << endl;
+        cout << " [1]: Ver prÃ©-requisitos\n [2]: Ver pÃ³s-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopÃ§Ã£o: ";
         scanf("%d",&opcao);
         setbuf(stdin,NULL);
 
         if(opcao==1){
 
-            cout << "informe uma disciplina para ver os pré-requisitos:" << endl;
+            cout << "informe uma disciplina para ver os prÃ©-requisitos:" << endl;
             fgets(busca.procura,10,stdin);
             setbuf(stdin,NULL);
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->pre[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pré-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem prÃ©-requisitos." << endl;
             else if(busca.retorno==0){
-                cout << "\nos pré-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
+                cout << "\nos prÃ©-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
                 exibir_pre_req(busca.dis_return,0,&direto);
-                printf("\n %s tem %d pré-requisitos diretos.\n",busca.dis_return->Name,direto);
+                printf("\n %s tem %d prÃ©-requisitos diretos.\n",busca.dis_return->Name,direto);
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao==2){
 
@@ -62,15 +62,15 @@ int main(){
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->pos[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pos-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem pos-requisitos." << endl;
             else if(busca.retorno==0){
-                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
+                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
                 exibir_pos_req(busca.dis_return,0,&direto);
-                printf("\n %s é pré-requisito direto de %d disciplinas.\n",busca.dis_return->Name,direto);
+                printf("\n %s Ã© prÃ©-requisito direto de %d disciplinas.\n",busca.dis_return->Name,direto);
                 direto=0;
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao==3){
 
@@ -80,17 +80,17 @@ int main(){
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->co[0]==NULL){
-                cout << " A disciplina " << busca.dis_return->Name << " não tem co-requisitos." << endl;
+                cout << " A disciplina " << busca.dis_return->Name << " nÃ£o tem co-requisitos." << endl;
             }
             else if(busca.retorno==0){
-                cout << "\nos co-requisitos de " << busca.dis_return->Name << " são:" << endl;
+                cout << "\nos co-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl;
                 exibir_co_req(busca.dis_return);
             }
             else
-                cout << "\n Disiciplina não encontrada ";
+                cout << "\n Disiciplina nÃ£o encontrada ";
         }
         else if(opcao!=9)
-            cout << "\nOpção invalida";
+            cout << "\nOpÃ§Ã£o invalida";
 
         cout << endl << endl;
         system("pause");
