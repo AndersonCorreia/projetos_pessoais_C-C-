@@ -1,0 +1,1131 @@
+EXA 801
+Algoritimos e programação I
+60
+2
+0
+1
+EXA 854
+MI - Algoritimos
+30
+1
+0
+1
+EXA 702
+Álgebra Vetorial e Geometria Analitica
+60
+3
+0
+0
+1
+EXA 704
+Cálculo Diferencial e Intregral I-E
+60
+3
+0
+0
+1
+EXA 829
+Tópicos de formação Humanística B
+60
+2
+0
+0
+1
+EXA 861
+Introdução a engenharia de computação
+30
+2
+0
+0
+1
+TEC 497
+introdução a eletrônica
+30
+2
+0
+0
+1
+TEC 503
+Produção de textos técnicos e acadêmicos
+30
+2
+0
+0
+1
+EXA 705
+Cálculo Diferencial e Integral II-E
+60
+3
+1
+exa 704
+0
+1
+EXA 706
+Equações Diferenciais I-E
+60
+3
+1
+exa 705
+0
+1
+EXA 707
+Cálculo de Funções de Várias variáveis
+60
+7
+1
+exa 705
+0
+1
+FIS 110
+Física I
+90
+3
+1
+EXA 704
+0
+1
+EXA 709
+Probabilidade e Estatística I-E
+60
+3
+1
+EXA 704
+0
+1
+EXA 857
+MI - Engenharia de software
+60
+1
+5
+tec 503
+EXA 863
+MI - Programação
+60
+1
+3
+tec 503
+EXA 854
+EXA 801
+4
+EXA 805
+Algoritimos e Programação II
+30
+2
+2
+exa 854
+exa 801
+3
+EXA 806
+Estrutura de Dados
+30
+2
+2
+exa 854
+exa 801
+3
+EXA 863
+EXA 807
+Estruturas Discretas
+60
+2
+2
+exa 854
+exa 801
+3
+EXA 863
+EXA 805
+EXA 855
+Projeto de Sistemas
+30
+2
+2
+exa 854
+exa 801
+3
+exa 863
+exa 805
+exa 806
+exa 855
+exa 807
+exa 855
+exa 806
+exa 807
+exa 855
+exa 805
+exa 806
+exa 855
+3
+EXA 809
+Engenharia de software
+30
+2
+4
+exa 863
+exa 805
+exa 806
+exa 855
+2
+EXA 810
+Banco de Dados
+30
+2
+4
+exa 863
+exa 805
+exa 806
+exa 855
+1
+EXA 856
+Análise de Sistemas
+30
+2
+4
+exa 863
+exa 805
+exa 806
+exa 855
+0
+exa 856
+exa 810
+exa 856
+1
+EXA 869
+MI - Processadores de Linguagem de Programação
+60
+1
+5
+tec 503
+exa 863
+exa 805
+exa 806
+EXA 858
+Aspectos Teóricos da Computação
+60
+2
+1
+exa 801
+0
+1
+EXA 817
+Compiladores
+30
+2
+4
+exa 863
+exa 805
+exa 806
+exa 858
+0
+TEC 502
+MI - Concorrência e Conectividade
+60
+1
+4
+tec 503
+exa 863
+exa 805
+exa 806
+2
+TEC 408
+Sistemas Operacionais
+60
+2
+3
+exa 863
+exa 805
+exa 806
+1
+TEC 409
+Redes de Computadores
+60
+2
+3
+exa 863
+exa 805
+exa 806
+0
+TEC 409
+1
+TEC 513
+MI - Processamento Digital de Sinais
+60
+2
+3
+tec 503
+TEC 412
+Sinais e Sistemas
+60
+2
+1
+EXA 862
+Métodos Numéricos
+60
+2
+2
+EXA 706
+EXA 806
+0
+1
+TEC 500
+Circuitos Elétricos e Eletrônicos
+60
+2
+3
+EXA 706
+FIS 310
+Física III
+90
+3
+2
+exa 705
+exa 702
+0
+TEC 497
+1
+TEC 506
+MI - Projetos de Circuitos Eletrônicos
+60
+1
+4
+tec 503
+exa 706
+Fis 310
+tec 497
+0
+TEC 401
+Circuitos Digitais
+60
+2
+1
+TEC 497
+1
+TEC 498
+MI - Projeto de Circuitos Digitais
+30
+1
+2
+tec 503
+TEC 497
+0
+2
+TEC 501
+Eletrônica para Processamento Digital de Sinais
+30
+2
+3
+TEC 412
+TEC 401
+TEC 500
+1
+TEC 430
+Processamento Digital de Sinais
+30
+2
+2
+TEC 412
+TEC 401
+0
+TEC 430
+1
+TEC 502
+TEC 513
+TEC 498
+TEC 506
+TEC 499
+MI - Sistemas Digitais
+60
+1
+3
+tec 503
+TEC 498
+TEC 401
+1
+TEC 402
+Arquitetura de Computadores
+60
+2
+2
+TEC 498
+TEC 401
+0
+EXA 813
+Análise E projeto de Algoritimos
+60
+2
+3
+EXA 705
+exa 807
+exa 806
+0
+EXA 856
+EXA 890
+Ética em Computação
+60
+2
+0
+0
+EXA 861
+EXA 829
+TEC 429
+Tópicos de Formação Complementar
+60
+2
+0
+0
+TEC 503
+EXA 703
+Álgebra Linear I-E
+60
+3
+0
+0
+EXA 417
+Química Geral e de materiais
+45
+3
+0
+0
+FIS 110
+Fis 410
+Física IV
+90
+3
+1
+Fis 310
+1
+EXA 827
+Estágio em Tempo Integral
+480
+5
+0
+0
+1
+EXA 828
+Estágio
+300
+5
+0
+0
+1
+EXA 859
+Empreendedorismo I
+60
+6
+6
+exa 857
+exa 809
+exa 856
+exa 810
+TEC 499
+tec 402
+0
+EXA 860
+Empreendedorismo II
+90
+6
+1
+exa 859
+0
+TEC 518
+Trabalho de Conclusão de Curso I
+60
+4
+1
+TEC 517
+Metodologia da Pesquisa e Desenvolvimento em Ecomp
+30
+4
+0
+0
+0
+TEC 519
+Trabalho de Conclusão de Curso II
+60
+4
+1
+TEC 518
+0
+1
+EXA 802
+Lógica para computação
+60
+7
+0
+0
+1
+EXA 830
+Arquitetura e Desempenho de Bancos de Dados
+60
+7
+1
+exa 810
+0
+1
+EXA 831
+Bancos de Dados Avançados
+60
+7
+1
+EXA 810
+0
+1
+EXA 833
+Gerência de Projetos de Informática
+60
+7
+2
+EXA 809
+EXA 856
+0
+1
+EXA 834
+Projeto de Interface de Usuário
+60
+7
+1
+EXA 805
+0
+1
+EXA 835
+Software Baseado em Componentes
+60
+7
+2
+EXA 809
+TEC 409
+0
+1
+EXA 836
+Padrões e Frameworks
+60
+7
+4
+EXA 863
+Exa 805
+exa 806
+exa 855
+0
+1
+EXA 837
+Sistemas de informação
+60
+7
+0
+0
+1
+EXA 838
+Sistemas de Informação inteligentes
+60
+7
+1
+EXA 810
+0
+1
+EXA 839
+Engenharia de Processos de Software
+60
+7
+1
+EXA 809
+0
+1
+EXA 840
+Análise e Projeto de Sistemas II
+60
+7
+1
+EXA 856
+0
+1
+EXA 841
+Inteligência Artificial
+60
+7
+1
+EXA 806
+0
+1
+EXA 842
+Programação Concorrente
+60
+7
+3
+EXA 863
+exa 805
+exa 806
+0
+1
+EXA 843
+Programação Paralela
+60
+7
+1
+exa 806
+0
+1
+EXA 844
+Programação para Redes
+60
+7
+2
+exa 805
+tec 409
+0
+1
+EXA 846
+Informática na Educação
+60
+7
+1
+exa 805
+0
+1
+EXA 847
+Especificação de Sistemas
+60
+7
+1
+Exa 809
+0
+1
+EXA 848
+Sistemas Especialistas
+60
+7
+1
+exa 841
+0
+1
+EXA 849
+Agentes em Inteligência Artificial
+60
+7
+1
+exa 841
+0
+1
+EXA 850
+Interatividade na internet
+60
+7
+2
+EXA 844
+tec 409
+0
+1
+EXA 851
+Qualidade de Software
+60
+7
+1
+exa 809
+0
+1
+EXA 852
+Introdução a Ciência Cognitiva
+60
+7
+0
+0
+1
+EXA 867
+Computação Evolutiva
+60
+7
+2
+exa 805
+exa 806
+0
+1
+EXA 868
+Inteligência Artificial não simbólica
+60
+7
+3
+exa 705
+exa 805
+exa 806
+0
+1
+EXA 864
+Mineração de Dados
+60
+7
+3
+exa 805
+exa 806
+exa 863
+0
+1
+EXA 865
+Otimização Linear
+60
+7
+1
+exa 703
+0
+1
+EXA 866
+Otimização não-Linear
+60
+7
+1
+exa 706
+0
+1
+EXA 870
+Evolução e Manutenção de Software
+60
+7
+3
+exa 857
+exa 805
+exa 856
+0
+1
+EXA 871
+Arquitetura e Design de Software
+60
+7
+3
+Exa 857
+exa 805
+exa 856
+0
+1
+EXA 906
+Jogos Digitais
+60
+7
+3
+exa 857
+exa 809
+exa 856
+0
+1
+EXA 907
+Introducao a Programacao Competitiva
+60
+7
+2
+EXA 806
+EXA 807
+0
+1
+TEC 431
+Computação Gráfica
+60
+7
+3
+exa 702
+exa 805
+exa 806
+0
+1
+TEC 432
+Animação por Computador
+60
+7
+1
+TEC 431
+0
+1
+TEC 433
+Formação e Visualização de Imagens Digitais
+60
+7
+2
+fis 410
+tec 402
+0
+1
+TEC 434
+Computação Visual
+60
+7
+2
+exa 705
+exa 806
+0
+1
+TEC 435
+Codificação e Compressão de Sinais e Imagens
+60
+7
+2
+TEC 513
+TEC 457
+Processos Estocásticos
+60
+7
+2
+exa 709
+TEC 412
+0
+0
+1
+TEC 436
+Computação Sônica
+60
+7
+2
+EXA 805
+TEC 402
+0
+1
+TEC 437
+Síntese de Áudio
+60
+7
+1
+TEC 436
+0
+1
+TEC 438
+Tratamento Digital de Sinais de VOz
+60
+7
+2
+TEC 513
+tec 457
+0
+1
+TEC 439
+Comunicações Digitais
+60
+7
+2
+TEC 513
+tec 457
+0
+1
+TEC 441
+Eletrônica para Telecomunicações
+60
+7
+1
+tec 500
+0
+1
+TEC 442
+Instrumentação Eletrônica
+60
+7
+2
+tec 402
+tec 500
+0
+1
+TEC 443
+Instrumentação Industrial e Controle de Processos
+60
+7
+2
+tec 402
+tec 500
+0
+1
+TEC 444
+Automação Industrial
+60
+7
+1
+tec 402
+0
+1
+TEC 445
+Concepção de Circuitos Integrados
+60
+7
+2
+tec 402
+tec 501
+0
+1
+TEC 447
+Arquiteturas Avançadas de Computadores
+60
+7
+1
+tec 402
+0
+1
+TEC 448
+Sistemas de Tempo Real
+60
+7
+1
+TEC 408
+0
+1
+TEC 449
+Tecnologias de Redes de Computadores
+60
+7
+3
+tec 500
+tec 409
+tec 412
+0
+1
+TEC 450
+Transmissão de Dados Multimidia
+60
+7
+1
+tec 449
+0
+1
+TEC 451
+Segurança de Computadores e criptografia
+60
+7
+3
+exa 709
+exa 806
+exa 807
+0
+1
+TEC 452
+Avaliação de Desempenho de Sistemas
+60
+7
+2
+exa 805
+tec 457
+0
+1
+TEc 453
+Gerenciamento de Redes de Computadores
+60
+7
+3
+tec 502
+tec 409
+tec 408
+0
+1
+TEC 454
+Sistemas operacionais Tolerantes a Falhas
+60
+7
+2
+exa 709
+TEC 402
+0
+1
+TEC 455
+Sistemas Operacionais Distribuídos e de Redes
+60
+7
+2
+tec 409
+tec 408
+0
+1
+TEC 458
+Administração de Sistemas Heterogêneos
+60
+7
+3
+tec 502
+tec 409
+tec 408
+0
+1
+TEC 463
+Multimídia e Internet
+60
+7
+3
+tec 502
+tec 409
+tec 408
+0
+1
+TEC 465
+Redes sem Fio e Mobilidade
+60
+7
+3
+tec 502
+tec 409
+tec 408
+0
+1
+TEC 466
+Controle Digital
+60
+7
+6
+exa 703
+tec 501
+tec 412
+tec 443
+TEC 467
+Introdução a Sistemas de Controle
+60
+7
+4
+exa 706
+fis 110
+fis 310
+exa 703
+0
+TEC 468
+Sistemas de Controle I
+60
+7
+1
+TEC 467
+0
+0
+1
+TEC 470
+Sistemas Embarcados
+60
+7
+2
+TEC 402
+TEC 499
+0
+1
+TEC 471
+Projeto de Redes de Computadores
+60
+7
+3
+tec 502
+tec 409
+tec 408
+0
+1
+TEC 446
+Automação do Projeto de Circuitos Integrados
+60
+7
+2
+tec 402
+tec 498
+0
+1
+TEC 508
+Computação de Alto Desempenho
+60
+7
+3
+tec 402
+tec 409
+tec 408
+0
+1
+TEC 509
+Comunicações sem Fio
+60
+7
+1
+tec 512
+Principios de Telecomunicacoes
+60
+7
+1
+tec 412
+0
+0
+1
+EAD: Fund
+mentos e Práticas
+60
+7
+1
+tec 409
+0
+1
+TEC 469
+Fundamentos de Robótica
+60
+7
+4
+exa 702
+exa 703
+exa 706
+fis 110
+0
+1
+TEC 511
+Materiais de Aplicação em Tecnologia da Informação
+60
+7
+3
+exa 417
+fis 410
+tec 500
+0
+1
+TEC 440
+Microprocessadores e Microcontroladores
+60
+7
+1
+tec 402
+0
+1
+TEC 507
+Sistemas Distribuídos Avan‡ados
+60
+7
+2
+tec 409
+tec 502
+0
+1
+CIS 341
+Organização,Sistemas e Métodos
+60
+7
+1
+CIS ???
+Qualquer disciplina introdutória a administração
+60
+9
+0
+0
+0
+1
+FIS 210
+Física II
+90
+7
+1
+exa 705
+0
+1
+TEC 413
+Introducao a Mecanica dos Solidos
+30
+7
+2
+exa 706
+FIS 110
+0
+1
+TEC 414
+Introdução aos fenômenos de Transporte
+30
+7
+2
+exa 706
+fis 110
+0
+1
+TEC 516
+Coprojeto Hardware/Software
+60
+7
+3
+exa 801
+exa 854
+tec 499
+0
+3
+
