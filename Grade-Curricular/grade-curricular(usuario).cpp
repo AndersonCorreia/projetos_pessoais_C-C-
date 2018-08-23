@@ -4,21 +4,21 @@ inicio do desnvolvimento: 15/08/2018
 ******************************************************************************************/
 #include "main.h"
 
-//funÃ§Ãµes das opÃ§Ãµes do usuario
+//funções das opções do usuario
 void exibir_co_req(disciplina *);
 void exibir_pre_req(disciplina *, int , int *);
 void exibir_pos_req(disciplina *, int , int *);
 
 int main(){
 
-    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuaÃ§Ã£o
+    setlocale(LC_ALL,"Portuguese"); // para permite uso de acentuação
     disciplina *lista=NULL,*aux;
     Beta busca;
     FILE *dados=fopen("dados.ecomp","r");
     int opcao=1,direto=0;
 
     if(dados==NULL){
-    	printf("erro ao abrir o arquivo com as informaÃ§Ãµes do curso");
+    	printf("erro ao abrir o arquivo com as informações do curso");
     	return 0;
     }
     while(opcao==1){
@@ -30,67 +30,66 @@ int main(){
 
     while(opcao!=9){
         system("cls");
-        opcao=0;
-        cout << " Grade curricular do curso de Engenharia de computaÃ§Ã£o da UEFS\n\nEscolha uma das opÃ§Ãµes abaixo,";
-        cout << " para informaÃ§Ãµes sobre alguma disciplina do curso." << endl;
-        cout << " [1]: Ver prÃ©-requisitos\n [2]: Ver pÃ³s-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopÃ§Ã£o: ";
+        opcao=0; direto=0; //restaurando valor padrão das variaveis
+        cout << " Grade curricular do curso de Engenharia de computação da UEFS\n\nEscolha uma das opções abaixo,";
+        cout << " para informações sobre alguma disciplina do curso." << endl;
+        cout << " [1]: Ver pré-requisitos\n [2]: Ver pós-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopção: ";
         scanf("%d",&opcao);
         setbuf(stdin,NULL);
 
         if(opcao==1){
 
-            cout << "informe uma disciplina para ver os prÃ©-requisitos:" << endl;
+            cout << "informe o codigo de uma disciplina para ver os pré-requisitos:\n por ex: exa 704 (para calculo 1)." << endl;
             fgets(busca.procura,10,stdin);
             setbuf(stdin,NULL);
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->pre[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem prÃ©-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pré-requisitos." << endl;
             else if(busca.retorno==0){
-                cout << "\nos prÃ©-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
+                cout << "\nos pré-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
                 exibir_pre_req(busca.dis_return,0,&direto);
-                printf("\n %s tem %d prÃ©-requisitos diretos.\n",busca.dis_return->Name,direto);
+                printf("\n %s tem %d pré-requisitos diretos.\n",busca.dis_return->Name,direto);
             }
             else
-                cout << "\n Disiciplina nÃ£o encontrada ";
+                cout << "\n Disiciplina não encontrada ";
         }
         else if(opcao==2){
 
-            cout << "informe uma disciplina para ver os pos-requisitos:" << endl;
+            cout << "informe o codigo de uma disciplina para ver os pos-requisitos:\n por ex: tec 497 (para introdução a eletronica)." << endl;
             fgets(busca.procura,10,stdin);
             setbuf(stdin,NULL);
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->pos[0]==NULL)
-                cout << "\n A disciplina " << busca.dis_return->Name << " nÃ£o tem pos-requisitos." << endl;
+                cout << "\n A disciplina " << busca.dis_return->Name << " não tem pos-requisitos." << endl;
             else if(busca.retorno==0){
-                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl << endl;
+                cout << "\nos pos-requisitos de " << busca.dis_return->Name << " são:" << endl << endl;
                 exibir_pos_req(busca.dis_return,0,&direto);
-                printf("\n %s Ã© prÃ©-requisito direto de %d disciplinas.\n",busca.dis_return->Name,direto);
-                direto=0;
+                printf("\n %s é pré-requisito direto de %d disciplinas.\n",busca.dis_return->Name,direto);
             }
             else
-                cout << "\n Disiciplina nÃ£o encontrada ";
+                cout << "\n Disiciplina não encontrada ";
         }
         else if(opcao==3){
 
-            cout << "informe uma disciplina para ver os co-requisitos:" << endl << endl;
+            cout << "informe o codigo de uma disciplina para ver os co-requisitos:\n por ex: exa 801 (para algoritimos e programação 1)." << endl;
             fgets(busca.procura,10,stdin);
             setbuf(stdin,NULL);
             apagar_QuebraDeLinha(busca.procura);
             busca_lista(lista,&busca);
             if(busca.retorno==0 && busca.dis_return->co[0]==NULL){
-                cout << " A disciplina " << busca.dis_return->Name << " nÃ£o tem co-requisitos." << endl;
+                cout << " A disciplina " << busca.dis_return->Name << " não tem co-requisitos." << endl;
             }
             else if(busca.retorno==0){
-                cout << "\nos co-requisitos de " << busca.dis_return->Name << " sÃ£o:" << endl;
+                cout << "\nos co-requisitos de " << busca.dis_return->Name << " são:" << endl;
                 exibir_co_req(busca.dis_return);
             }
             else
-                cout << "\n Disiciplina nÃ£o encontrada ";
+                cout << "\n Disiciplina não encontrada ";
         }
         else if(opcao!=9)
-            cout << "\nOpÃ§Ã£o invalida";
+            cout << "\nOpção invalida";
 
         cout << endl << endl;
         system("pause");
@@ -109,10 +108,8 @@ void exibir_co_req(disciplina *lista){
 
     int a;
     textcolor(9);
-    for(a=0;a<4;a++){
-        if(lista->co[a]!=NULL){
-            printf(" %s: %s   Ch:%d   Tipo:%s \n",lista->co[a]->Cod,lista->co[a]->Name,lista->co[a]->Qt_Horas,tipo[lista->co[a]->natureza-1]);
-        }
+    for(a=0;lista->co[a]!=NULL;a++){
+        printf(" %s: %s   Ch:%d   Tipo:%s \n",lista->co[a]->Cod,lista->co[a]->Name,lista->co[a]->Qt_Horas,tipo[lista->co[a]->natureza-1]);
     }
     textcolor(7);
 }
@@ -120,22 +117,19 @@ void exibir_co_req(disciplina *lista){
 void exibir_pre_req(disciplina *lista,int tab, int *dir){
 
     if(lista->pre[0]==NULL){
-        //cout << "\n";
         return ;
     }
+    int cor_texto[7]={0,15,0,15,0,15,15}, cor_fundo[7]={15,1,9,3,5,4,8};
+
     int a,b;
-    for(a=0;a<6;a++){
-        textcolor((tab*3)+tab*12);
-        textbackground(tab*tab+tab+15);
+    for(a=0;lista->pre[a]!=NULL;a++){
+        textcolor(cor_texto[tab%7]);
+        textbackground(cor_fundo[tab%7]);
         for(b=0;b<tab && lista->pre[a]!=NULL ;b++)
             cout << "\t";
-        if(lista->pre[a]!=NULL){
-            (*dir)++;
-            printf(" %s: %s  Tipo:%s \n",lista->pre[a]->Cod,lista->pre[a]->Name,tipo[lista->pre[a]->natureza-1]);
-            exibir_pre_req(lista->pre[a],tab+1,&b);
-        }
-        else
-            a=7;
+        (*dir)++;
+        printf(" %s: %s  Tipo:%s \n",lista->pre[a]->Cod,lista->pre[a]->Name,tipo[lista->pre[a]->natureza-1]);
+        exibir_pre_req(lista->pre[a],tab+1,&b);
     }
     textcolor(7);
     textbackground(0);
@@ -144,23 +138,19 @@ void exibir_pre_req(disciplina *lista,int tab, int *dir){
 void exibir_pos_req(disciplina *lista,int tab,int *dir){
 
     if(lista->pos[0]==NULL){
-        //cout << "\n";
         return ;
     }
-    int a,b;
+    int cor_texto[7]={0,15,0,15,0,15,15}, cor_fundo[7]={15,1,9,3,5,4,8};
 
-    for(a=0;a<30;a++){
-        textcolor((tab*3)+tab*12);
-        textbackground(tab*tab+tab+15);
-        for(b=0;b<tab && lista->pos[a]!=NULL ;b++)
+    int a,b;
+    for(a=0;lista->pos[a]!=NULL;a++){
+        textcolor(cor_texto[tab%7]);
+        textbackground(cor_fundo[tab%7]);
+        for(b=0;b<tab;b++)
             cout << "\t";
-        if(lista->pos[a]!=NULL){
-            (*dir)++;
-            printf(" %s: %s  Tipo:%s \n",lista->pos[a]->Cod,lista->pos[a]->Name,tipo[lista->pos[a]->natureza-1]);
-            exibir_pos_req(lista->pos[a],tab+1,&b);
-        }
-        else
-            a=30;
+        (*dir)++;
+        printf(" %s: %s  Tipo:%s \n",lista->pos[a]->Cod,lista->pos[a]->Name,tipo[lista->pos[a]->natureza-1]);
+        exibir_pos_req(lista->pos[a],tab+1,&b);
     }
     textcolor(7);
     textbackground(0);

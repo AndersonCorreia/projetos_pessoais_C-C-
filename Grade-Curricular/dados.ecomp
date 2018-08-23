@@ -1,5 +1,5 @@
 EXA 801
-Algoritimos e programa√ß√£o I
+Algoritimos e programaÁ„o I
 60
 2
 0
@@ -9,51 +9,52 @@ MI - Algoritimos
 30
 1
 0
+0
 1
 EXA 702
-√Ålgebra Vetorial e Geometria Analitica
+¡lgebra Vetorial e Geometria Analitica
 60
 3
 0
 0
 1
 EXA 704
-C√°lculo Diferencial e Intregral I-E
+C·lculo Diferencial e Intregral I-E
 60
 3
 0
 0
 1
 EXA 829
-T√≥picos de forma√ß√£o Human√≠stica B
+TÛpicos de formaÁ„o HumanÌstica B
 60
 2
 0
 0
 1
 EXA 861
-Introdu√ß√£o a engenharia de computa√ß√£o
+IntroduÁ„o a engenharia de computaÁ„o
 30
 2
 0
 0
 1
 TEC 497
-introdu√ß√£o a eletr√¥nica
+introduÁ„o a eletrÙnica
 30
 2
 0
 0
 1
 TEC 503
-Produ√ß√£o de textos t√©cnicos e acad√™micos
+ProduÁ„o de textos tÈcnicos e acadÍmicos
 30
 2
 0
 0
 1
 EXA 705
-C√°lculo Diferencial e Integral II-E
+C·lculo Diferencial e Integral II-E
 60
 3
 1
@@ -61,7 +62,7 @@ exa 704
 0
 1
 EXA 706
-Equa√ß√µes Diferenciais I-E
+EquaÁıes Diferenciais I-E
 60
 3
 1
@@ -69,7 +70,7 @@ exa 705
 0
 1
 EXA 707
-C√°lculo de Fun√ß√µes de V√°rias vari√°veis
+C·lculo de FunÁıes de V·rias vari·veis
 60
 7
 1
@@ -77,7 +78,7 @@ exa 705
 0
 1
 FIS 110
-F√≠sica I
+FÌsica I
 90
 3
 1
@@ -85,7 +86,7 @@ EXA 704
 0
 1
 EXA 709
-Probabilidade e Estat√≠stica I-E
+Probabilidade e EstatÌstica I-E
 60
 3
 1
@@ -99,7 +100,7 @@ MI - Engenharia de software
 5
 tec 503
 EXA 863
-MI - Programa√ß√£o
+MI - ProgramaÁ„o
 60
 1
 3
@@ -108,7 +109,7 @@ EXA 854
 EXA 801
 4
 EXA 805
-Algoritimos e Programa√ß√£o II
+Algoritimos e ProgramaÁ„o II
 30
 2
 2
@@ -176,7 +177,7 @@ exa 806
 exa 855
 1
 EXA 856
-An√°lise de Sistemas
+An·lise de Sistemas
 30
 2
 4
@@ -190,7 +191,7 @@ exa 810
 exa 856
 1
 EXA 869
-MI - Processadores de Linguagem de Programa√ß√£o
+MI - Processadores de Linguagem de ProgramaÁ„o
 60
 1
 5
@@ -199,7 +200,7 @@ exa 863
 exa 805
 exa 806
 EXA 858
-Aspectos Te√≥ricos da Computa√ß√£o
+Aspectos TeÛricos da ComputaÁ„o
 60
 2
 1
@@ -216,8 +217,9 @@ exa 805
 exa 806
 exa 858
 0
+1
 TEC 502
-MI - Concorr√™ncia e Conectividade
+MI - ConcorrÍncia e Conectividade
 60
 1
 4
@@ -249,7 +251,7 @@ TEC 409
 TEC 513
 MI - Processamento Digital de Sinais
 60
-2
+1
 3
 tec 503
 TEC 412
@@ -258,7 +260,7 @@ Sinais e Sistemas
 2
 1
 EXA 862
-M√©todos Num√©ricos
+MÈtodos NumÈricos
 60
 2
 2
@@ -267,13 +269,13 @@ EXA 806
 0
 1
 TEC 500
-Circuitos El√©tricos e Eletr√¥nicos
+Circuitos ElÈtricos e EletrÙnicos
 60
 2
 3
 EXA 706
 FIS 310
-F√≠sica III
+FÌsica III
 90
 3
 2
@@ -283,7 +285,7 @@ exa 702
 TEC 497
 1
 TEC 506
-MI - Projetos de Circuitos Eletr√¥nicos
+MI - Projetos de Circuitos EletrÙnicos
 60
 1
 4
@@ -307,16 +309,16 @@ MI - Projeto de Circuitos Digitais
 tec 503
 TEC 497
 0
-2
+1
 TEC 501
-Eletr√¥nica para Processamento Digital de Sinais
+EletrÙnica para Processamento Digital de Sinais
 30
 2
 3
 TEC 412
 TEC 401
 TEC 500
-1
+2
 TEC 430
 Processamento Digital de Sinais
 30
@@ -325,12 +327,8 @@ Processamento Digital de Sinais
 TEC 412
 TEC 401
 0
-TEC 430
+tec 503
 1
-TEC 502
-TEC 513
-TEC 498
-TEC 506
 TEC 499
 MI - Sistemas Digitais
 60
@@ -349,7 +347,7 @@ TEC 498
 TEC 401
 0
 EXA 813
-An√°lise E projeto de Algoritimos
+An·lise E projeto de Algoritimos
 60
 2
 3
@@ -357,51 +355,48 @@ EXA 705
 exa 807
 exa 806
 0
-EXA 856
+1
 EXA 890
-√âtica em Computa√ß√£o
+…tica em ComputaÁ„o
 60
 2
 0
 0
-EXA 861
-EXA 829
 TEC 429
-T√≥picos de Forma√ß√£o Complementar
+TÛpicos de FormaÁ„o Complementar
 60
 2
 0
 0
-TEC 503
+1
 EXA 703
-√Ålgebra Linear I-E
+¡lgebra Linear I-E
 60
 3
 0
 0
 EXA 417
-Qu√≠mica Geral e de materiais
+QuÌmica Geral e de materiais
 45
 3
 0
 0
-FIS 110
 Fis 410
-F√≠sica IV
+FÌsica IV
 90
 3
 1
 Fis 310
 1
 EXA 827
-Est√°gio em Tempo Integral
+Est·gio em Tempo Integral
 480
 5
 0
 0
 1
 EXA 828
-Est√°gio
+Est·gio
 300
 5
 0
@@ -427,7 +422,7 @@ Empreendedorismo II
 exa 859
 0
 TEC 518
-Trabalho de Conclus√£o de Curso I
+Trabalho de Conclus„o de Curso I
 60
 4
 1
@@ -439,7 +434,7 @@ Metodologia da Pesquisa e Desenvolvimento em Ecomp
 0
 0
 TEC 519
-Trabalho de Conclus√£o de Curso II
+Trabalho de Conclus„o de Curso II
 60
 4
 1
@@ -447,7 +442,7 @@ TEC 518
 0
 1
 EXA 802
-L√≥gica para computa√ß√£o
+LÛgica para computaÁ„o
 60
 7
 0
@@ -462,7 +457,7 @@ exa 810
 0
 1
 EXA 831
-Bancos de Dados Avan√ßados
+Bancos de Dados AvanÁados
 60
 7
 1
@@ -470,7 +465,7 @@ EXA 810
 0
 1
 EXA 833
-Ger√™ncia de Projetos de Inform√°tica
+GerÍncia de Projetos de Inform·tica
 60
 7
 2
@@ -479,7 +474,7 @@ EXA 856
 0
 1
 EXA 834
-Projeto de Interface de Usu√°rio
+Projeto de Interface de Usu·rio
 60
 7
 1
@@ -496,7 +491,7 @@ TEC 409
 0
 1
 EXA 836
-Padr√µes e Frameworks
+Padrıes e Frameworks
 60
 7
 4
@@ -507,14 +502,14 @@ exa 855
 0
 1
 EXA 837
-Sistemas de informa√ß√£o
+Sistemas de informaÁ„o
 60
 7
 0
 0
 1
 EXA 838
-Sistemas de Informa√ß√£o inteligentes
+Sistemas de InformaÁ„o inteligentes
 60
 7
 1
@@ -530,7 +525,7 @@ EXA 809
 0
 1
 EXA 840
-An√°lise e Projeto de Sistemas II
+An·lise e Projeto de Sistemas II
 60
 7
 1
@@ -538,7 +533,7 @@ EXA 856
 0
 1
 EXA 841
-Intelig√™ncia Artificial
+InteligÍncia Artificial
 60
 7
 1
@@ -546,7 +541,7 @@ EXA 806
 0
 1
 EXA 842
-Programa√ß√£o Concorrente
+ProgramaÁ„o Concorrente
 60
 7
 3
@@ -556,7 +551,7 @@ exa 806
 0
 1
 EXA 843
-Programa√ß√£o Paralela
+ProgramaÁ„o Paralela
 60
 7
 1
@@ -564,7 +559,7 @@ exa 806
 0
 1
 EXA 844
-Programa√ß√£o para Redes
+ProgramaÁ„o para Redes
 60
 7
 2
@@ -573,7 +568,7 @@ tec 409
 0
 1
 EXA 846
-Inform√°tica na Educa√ß√£o
+Inform·tica na EducaÁ„o
 60
 7
 1
@@ -581,7 +576,7 @@ exa 805
 0
 1
 EXA 847
-Especifica√ß√£o de Sistemas
+EspecificaÁ„o de Sistemas
 60
 7
 1
@@ -597,7 +592,7 @@ exa 841
 0
 1
 EXA 849
-Agentes em Intelig√™ncia Artificial
+Agentes em InteligÍncia Artificial
 60
 7
 1
@@ -622,14 +617,14 @@ exa 809
 0
 1
 EXA 852
-Introdu√ß√£o a Ci√™ncia Cognitiva
+IntroduÁ„o a CiÍncia Cognitiva
 60
 7
 0
 0
 1
 EXA 867
-Computa√ß√£o Evolutiva
+ComputaÁ„o Evolutiva
 60
 7
 2
@@ -638,7 +633,7 @@ exa 806
 0
 1
 EXA 868
-Intelig√™ncia Artificial n√£o simb√≥lica
+InteligÍncia Artificial n„o simbÛlica
 60
 7
 3
@@ -648,7 +643,7 @@ exa 806
 0
 1
 EXA 864
-Minera√ß√£o de Dados
+MineraÁ„o de Dados
 60
 7
 3
@@ -658,7 +653,7 @@ exa 863
 0
 1
 EXA 865
-Otimiza√ß√£o Linear
+OtimizaÁ„o Linear
 60
 7
 1
@@ -666,7 +661,7 @@ exa 703
 0
 1
 EXA 866
-Otimiza√ß√£o n√£o-Linear
+OtimizaÁ„o n„o-Linear
 60
 7
 1
@@ -674,7 +669,7 @@ exa 706
 0
 1
 EXA 870
-Evolu√ß√£o e Manuten√ß√£o de Software
+EvoluÁ„o e ManutenÁ„o de Software
 60
 7
 3
@@ -713,7 +708,7 @@ EXA 807
 0
 1
 TEC 431
-Computa√ß√£o Gr√°fica
+ComputaÁ„o Gr·fica
 60
 7
 3
@@ -723,7 +718,7 @@ exa 806
 0
 1
 TEC 432
-Anima√ß√£o por Computador
+AnimaÁ„o por Computador
 60
 7
 1
@@ -731,7 +726,7 @@ TEC 431
 0
 1
 TEC 433
-Forma√ß√£o e Visualiza√ß√£o de Imagens Digitais
+FormaÁ„o e VisualizaÁ„o de Imagens Digitais
 60
 7
 2
@@ -740,7 +735,7 @@ tec 402
 0
 1
 TEC 434
-Computa√ß√£o Visual
+ComputaÁ„o Visual
 60
 7
 2
@@ -749,13 +744,13 @@ exa 806
 0
 1
 TEC 435
-Codifica√ß√£o e Compress√£o de Sinais e Imagens
+CodificaÁ„o e Compress„o de Sinais e Imagens
 60
 7
 2
 TEC 513
 TEC 457
-Processos Estoc√°sticos
+Processos Estoc·sticos
 60
 7
 2
@@ -765,7 +760,7 @@ TEC 412
 0
 1
 TEC 436
-Computa√ß√£o S√¥nica
+ComputaÁ„o SÙnica
 60
 7
 2
@@ -774,7 +769,7 @@ TEC 402
 0
 1
 TEC 437
-S√≠ntese de √Åudio
+SÌntese de ¡udio
 60
 7
 1
@@ -782,7 +777,7 @@ TEC 436
 0
 1
 TEC 438
-Tratamento Digital de Sinais de VOz
+Tratamento Digital de Sinais de Voz
 60
 7
 2
@@ -791,7 +786,7 @@ tec 457
 0
 1
 TEC 439
-Comunica√ß√µes Digitais
+ComunicaÁıes Digitais
 60
 7
 2
@@ -800,7 +795,7 @@ tec 457
 0
 1
 TEC 441
-Eletr√¥nica para Telecomunica√ß√µes
+EletrÙnica para TelecomunicaÁıes
 60
 7
 1
@@ -808,7 +803,7 @@ tec 500
 0
 1
 TEC 442
-Instrumenta√ß√£o Eletr√¥nica
+InstrumentaÁ„o EletrÙnica
 60
 7
 2
@@ -817,7 +812,7 @@ tec 500
 0
 1
 TEC 443
-Instrumenta√ß√£o Industrial e Controle de Processos
+InstrumentaÁ„o Industrial e Controle de Processos
 60
 7
 2
@@ -826,7 +821,7 @@ tec 500
 0
 1
 TEC 444
-Automa√ß√£o Industrial
+AutomaÁ„o Industrial
 60
 7
 1
@@ -834,7 +829,7 @@ tec 402
 0
 1
 TEC 445
-Concep√ß√£o de Circuitos Integrados
+ConcepÁ„o de Circuitos Integrados
 60
 7
 2
@@ -843,7 +838,7 @@ tec 501
 0
 1
 TEC 447
-Arquiteturas Avan√ßadas de Computadores
+Arquiteturas AvanÁadas de Computadores
 60
 7
 1
@@ -869,7 +864,7 @@ tec 412
 0
 1
 TEC 450
-Transmiss√£o de Dados Multimidia
+Transmiss„o de Dados Multimidia
 60
 7
 1
@@ -877,7 +872,7 @@ tec 449
 0
 1
 TEC 451
-Seguran√ßa de Computadores e criptografia
+SeguranÁa de Computadores e criptografia
 60
 7
 3
@@ -887,7 +882,7 @@ exa 807
 0
 1
 TEC 452
-Avalia√ß√£o de Desempenho de Sistemas
+AvaliaÁ„o de Desempenho de Sistemas
 60
 7
 2
@@ -915,7 +910,7 @@ TEC 402
 0
 1
 TEC 455
-Sistemas Operacionais Distribu√≠dos e de Redes
+Sistemas Operacionais DistribuÌdos e de Redes
 60
 7
 2
@@ -924,7 +919,7 @@ tec 408
 0
 1
 TEC 458
-Administra√ß√£o de Sistemas Heterog√™neos
+AdministraÁ„o de Sistemas HeterogÍneos
 60
 7
 3
@@ -934,7 +929,7 @@ tec 408
 0
 1
 TEC 463
-Multim√≠dia e Internet
+MultimÌdia e Internet
 60
 7
 3
@@ -963,7 +958,7 @@ tec 501
 tec 412
 tec 443
 TEC 467
-Introdu√ß√£o a Sistemas de Controle
+IntroduÁ„o a Sistemas de Controle
 60
 7
 4
@@ -1001,7 +996,7 @@ tec 408
 0
 1
 TEC 446
-Automa√ß√£o do Projeto de Circuitos Integrados
+AutomaÁ„o do Projeto de Circuitos Integrados
 60
 7
 2
@@ -1010,7 +1005,7 @@ tec 498
 0
 1
 TEC 508
-Computa√ß√£o de Alto Desempenho
+ComputaÁ„o de Alto Desempenho
 60
 7
 3
@@ -1020,7 +1015,7 @@ tec 408
 0
 1
 TEC 509
-Comunica√ß√µes sem Fio
+ComunicaÁıes sem Fio
 60
 7
 1
@@ -1033,8 +1028,7 @@ tec 412
 0
 0
 1
-EAD: Fund
-mentos e Pr√°ticas
+EAD: Fundamentos e Pr·ticas
 60
 7
 1
@@ -1042,7 +1036,7 @@ tec 409
 0
 1
 TEC 469
-Fundamentos de Rob√≥tica
+Fundamentos de RobÛtica
 60
 7
 4
@@ -1053,7 +1047,7 @@ fis 110
 0
 1
 TEC 511
-Materiais de Aplica√ß√£o em Tecnologia da Informa√ß√£o
+Materiais de AplicaÁ„o em Tecnologia da InformaÁ„o
 60
 7
 3
@@ -1071,7 +1065,7 @@ tec 402
 0
 1
 TEC 507
-Sistemas Distribu√≠dos Avan¬áados
+Sistemas DistribuÌdos Avanáados
 60
 7
 2
@@ -1080,12 +1074,12 @@ tec 502
 0
 1
 CIS 341
-Organiza√ß√£o,Sistemas e M√©todos
+OrganizaÁ„o,Sistemas e MÈtodos
 60
 7
 1
 CIS ???
-Qualquer disciplina introdut√≥ria a administra√ß√£o
+Qualquer disciplina introdutÛria a administraÁ„o
 60
 9
 0
@@ -1093,7 +1087,7 @@ Qualquer disciplina introdut√≥ria a administra√ß√£o
 0
 1
 FIS 210
-F√≠sica II
+FÌsica II
 90
 7
 1
@@ -1110,7 +1104,7 @@ FIS 110
 0
 1
 TEC 414
-Introdu√ß√£o aos fen√¥menos de Transporte
+IntroduÁ„o aos fenÙmenos de Transporte
 30
 7
 2
