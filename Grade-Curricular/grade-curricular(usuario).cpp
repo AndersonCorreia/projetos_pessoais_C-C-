@@ -8,6 +8,7 @@ inicio do desnvolvimento: 15/08/2018
 void exibir_co_req(disciplina *);
 void exibir_pre_req(disciplina *, int , int *);
 void exibir_pos_req(disciplina *, int , int *);
+void exibir_disc(disciplina *);
 
 int main(){
 
@@ -33,7 +34,8 @@ int main(){
         opcao=0; direto=0; //restaurando valor padrão das variaveis
         cout << " Grade curricular do curso de Engenharia de computação da UEFS\n\nEscolha uma das opções abaixo,";
         cout << " para informações sobre alguma disciplina do curso." << endl;
-        cout << " [1]: Ver pré-requisitos\n [2]: Ver pós-requisitos\n [3]: Ver co-requisitos\n [9]: encerrar o programa\nopção: ";
+        cout << " [1]: Ver pré-requisitos\n [2]: Ver pós-requisitos\n [3]: Ver co-requisitos\n [4]: Listar todas as diciplinas" << endl;
+        cout << " [9]: encerrar o programa\nopção: ";
         scanf("%d",&opcao);
         setbuf(stdin,NULL);
 
@@ -87,6 +89,12 @@ int main(){
             }
             else
                 cout << "\n Disiciplina não encontrada ";
+        }
+        else if(opcao==4){
+            cout << " A sequir a lista de todas as diciplinas cadastradas no sistema."
+            "\nOBS: As humanisticas e complementares não foram cadastradas por prequiça do desenvolvedor,"
+            "afinal a unica com pre-requisito é inglês II"<< endl;
+            exibir_disc(lista);
         }
         else if(opcao!=9)
             cout << "\nOpção invalida";
@@ -154,4 +162,17 @@ void exibir_pos_req(disciplina *lista,int tab,int *dir){
     }
     textcolor(7);
     textbackground(0);
+}
+
+void exibir_disc(disciplina *lista){
+
+    int cor_texto[7]={15,1,9,3,8},a=0;
+
+    for(lista;lista->proximo!=NULL;lista=lista->proximo){
+        textcolor(cor_texto[a%5]);
+        printf(" %s: %s   Ch:%d   Tipo:%s \n\n",lista->Cod,lista->Name,lista->Qt_Horas,tipo[lista->natureza-1]);
+        a++;
+    }
+    textcolor(7);
+    cout << "\n Existem "<< a <<" disciplinas cadastradas.\n OBS: como ja deve ter percibido a maioria delas não costumam ser ofertadas.\n";
 }
