@@ -1,19 +1,19 @@
 /*******************************************************************************
 Autor: anderson da luz correia
-funÃ§Ãµes utilizadas no projeto "grade-curricular"
+funções utilizadas no projeto "grade-curricular"
 ******************************************************************************************/
-#include <iostream> // Biblioteca padrÃ£o para objetos da linquagem c++
-#include <locale.h> // funÃ§Ãµes de linguagem,para o uso do portuguÃªs
-#include <fstream>  // para manipulaÃ§Ã£o de arquivos como Objetos
-#include <stdio.h>  // funÃ§Ãµes de entrada e saida
+#include <iostream> // Biblioteca padrão para objetos da linquagem c++
+#include <locale.h> // funções de linguagem,para o uso do português
+#include <fstream>  // para manipulação de arquivos como Objetos
+#include <stdio.h>  // funções de entrada e saida
 #include <stdlib.h> // biblioteca para gerenciamento de memoria
-#include <string.h> // biblioteca de funÃ§Ãµes de string
+#include <string.h> // biblioteca de funções de string
 #include <conio.c>  // utilizada para alterar cores do texto e do fundo
 
 using namespace std;
 
-const char tipo[9][40]={"mÃ³dulos intregadores obrigatÃ³rios","MÃ³dulos ObrigatÃ³rios","Disciplinas ObrigatÃ³rias","TCC","EstÃ¡gio",
-                "Projeto Empreendedor","Optativa Profissionalizante","Optativa de FormaÃ§Ã£o HumanÃ­stica","Optativa de FormaÃ§Ã£o Complementar"};
+const char tipo[9][40]={"módulos intregadores obrigatórios","Módulos Obrigatórios","Disciplinas Obrigatórias","TCC","Estágio",
+                "Projeto Empreendedor","Optativa Profissionalizante","Optativa de Formação Humanística","Optativa de Formação Complementar"};
 typedef struct d{
         char Cod[10],Name[60];
         int Qt_Horas;
@@ -32,7 +32,7 @@ typedef struct s{
 
 disciplina *aumentar_lista(disciplina *);
 /** Recebe como parametro o ponteiro de uma lista do tipo disciplina
-  * insere um novo elemento no comeÃ§o da lista
+  * insere um novo elemento no começo da lista
   * Retorna um ponteiro para o novo elemento
   */
 disciplina *inserir_fim(disciplina *);
@@ -43,13 +43,13 @@ disciplina *inserir_fim(disciplina *);
 void busca_lista(disciplina *, Beta *);
 /** Recebe como parametro 2 ponteiros de listas, uma do tipo disciplina e outra do tipo Beta
   * Busca um elemento na lista de disciplina, e prenche a beta com o ponteiro do elementro encontrado e o int retorno iqual a 0
-  * ou apenas com retorno iqual a 1 caso o elemento nÃ£o seja encontrado
+  * ou apenas com retorno iqual a 1 caso o elemento não seja encontrado
   */
 
 disciplina *ler_dados(disciplina *, int , Beta *, FILE * , disciplina *);
 void pre_req_dados(disciplina *, int , FILE * , disciplina *);
 void co_req_dados(disciplina *, int , FILE * , disciplina *);
-/** As funÃ§Ãµes acima servem para ler todas as informaÃ§Ãµes sobre as disciplinas de um arquivo previamente preenchido,
+/** As funções acima servem para ler todas as informações sobre as disciplinas de um arquivo previamente preenchido,
   * Atraveis de outro executavel do projeto
   */
 
